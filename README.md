@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Its a simple project to learn the location of a bunch of rivers and seas around the world for my sons geography class.
+Nothing fancy, leaflet for the map react for the Interface. Two modes Show all Markers from the data, wich is a plain json file and
+show 10 from each category with the possibility to guess the from a dropdown list on the marker. A button for checking and a counter for errors. 
+Feel free to use it as you like.
+Demo: https://mapquiz-xi.vercel.app/
+
 ## Available Scripts
 
 In the project directory, you can run:
