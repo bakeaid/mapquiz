@@ -75,7 +75,6 @@ const NewMap = () => {
 
 	return (
 		<>
-			<p>Newmap</p>
 			<div
 				style={{
 					display: "flex",
