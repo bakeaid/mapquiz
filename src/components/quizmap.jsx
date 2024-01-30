@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import L from "leaflet";
-import "leaflet/dist/leaflet.css";
+import "../../leaflet.css";
 import dane from "../dane/dane.json";
 
 // Importowanie ikon
