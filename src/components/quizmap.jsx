@@ -5,9 +5,9 @@ import "../leaflet.css";
 import dane from "../dane/dane.json";
 
 // Importowanie ikon
-import iconUrl from "leaflet/dist/images/marker-icon.png";
-import iconRetinaUrl from "leaflet/dist/images/marker-icon-2x.png";
-import iconShadowUrl from "leaflet/dist/images/marker-shadow.png";
+import iconUrl from "../assets/marker-icon.png";
+import iconRetinaUrl from "../assets/marker-icon-2x.png";
+import iconShadowUrl from "../assets/marker-shadow.png";
 import redIconUrl from "../assets/marker-icon-red.png"; // Update this path
 import redIconRetinaUrl from "../assets/marker-icon-2x-red.png"; // Update this path
 
