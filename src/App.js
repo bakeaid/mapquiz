@@ -6,7 +6,7 @@ function App() {
   const [pokazQuizMap, setPokazQuizMap] = useState(false);
 
   return (
-    <div>
+    <div style={{ margin-left: 1em }}>
       <header className="MAP-QUIZ">
         <label>
           <input
