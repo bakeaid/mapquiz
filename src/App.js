@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './App.css';
 import QuizMap from './components/quizmap';
 import NewMap from './components/newmap';
 
