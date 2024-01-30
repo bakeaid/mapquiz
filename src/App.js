@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import QuizMap from './components/quizmap';
 import NewMap from './components/newmap';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   const [pokazQuizMap, setPokazQuizMap] = useState(false);
@@ -18,6 +19,7 @@ function App() {
         </label>
       </header>
       {pokazQuizMap ? <NewMap /> : <QuizMap />}
+<Analytics />
     </div>
   );
 }
